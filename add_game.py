@@ -8,4 +8,4 @@ def add_game_by_id(id,user,passwd):
 		# Then do another s.post with your collection addition using the JSON payload from above
 		s.post('https://boardgamegeek.com/geekcollection.php', data=payload,verify=False)
 # Sample Function Call
-# add_game_by_id(12750,'WhoDislikesKittens','ff^&|!L%DEA4')
+# add_game_by_id(12750,'WhoDislikesKittens','pass')
